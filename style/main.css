@@ -651,4 +651,10 @@ footer #footer .wrapper .desc li:hover i {
 #othPage h3 {
   font-weight: 700;
 }
+
+#othPage .circle {
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #8CC0DE;
+}
 /*# sourceMappingURL=main.css.map */
