@@ -335,13 +335,13 @@ main{
       }
    }
    .ornament2{
-      z-index: 12;
       right: -230px;
-      top: -23px;
+      top: -20px;
       transform: rotate(-14.53deg);
-      background-image: url("/img/starorn.svg");
-      width: 297.52px;
-      height: 185.01px;
+      img{
+         width: 297.52px;
+         height: 185.01px;
+      }
    }
 }
 
@@ -561,7 +561,7 @@ main{
 
 footer{
    #footer{
-      .container-fluid{
+      
          .wrapper{
             background-color: $black;
             border-radius: 56px 56px 0 0;
@@ -590,6 +590,16 @@ footer{
                }
             }
          }
-      }
+      
+   }
+}
+
+#othPage{
+   .bg-light{
+      width: 100%;
+      height: 3px;
+   }
+   h3{
+      font-weight: 700;
    }
 }

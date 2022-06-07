@@ -354,12 +354,13 @@ main .ornaments .ornament img {
 }
 
 main .ornaments .ornament2 {
-  z-index: 12;
   right: -230px;
-  top: -23px;
+  top: -20px;
   -webkit-transform: rotate(-14.53deg);
           transform: rotate(-14.53deg);
-  background-image: url("/img/starorn.svg");
+}
+
+main .ornaments .ornament2 img {
   width: 297.52px;
   height: 185.01px;
 }
@@ -606,39 +607,48 @@ main #products .container h2 span {
   color: #FFD9C0;
 }
 
-footer #footer .container-fluid .wrapper {
+footer #footer .wrapper {
   background-color: #676767;
   border-radius: 56px 56px 0 0;
 }
 
-footer #footer .container-fluid .wrapper .title {
+footer #footer .wrapper .title {
   font-family: "Rubik Bubbles", cursive;
 }
 
-footer #footer .container-fluid .wrapper .title span {
+footer #footer .wrapper .title span {
   color: #FFD9C0;
 }
 
-footer #footer .container-fluid .wrapper .desc {
+footer #footer .wrapper .desc {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
 }
 
-footer #footer .container-fluid .wrapper .desc i {
+footer #footer .wrapper .desc i {
   color: #FAF0D7;
 }
 
-footer #footer .container-fluid .wrapper .desc li {
+footer #footer .wrapper .desc li {
   margin-top: .4rem;
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
 }
 
-footer #footer .container-fluid .wrapper .desc li:hover {
+footer #footer .wrapper .desc li:hover {
   color: #F4BFBF;
 }
 
-footer #footer .container-fluid .wrapper .desc li:hover i {
+footer #footer .wrapper .desc li:hover i {
   color: #F4BFBF;
+}
+
+#othPage .bg-light {
+  width: 100%;
+  height: 3px;
+}
+
+#othPage h3 {
+  font-weight: 700;
 }
 /*# sourceMappingURL=main.css.map */
