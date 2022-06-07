@@ -623,10 +623,11 @@ footer #footer .wrapper .title span {
 footer #footer .wrapper .desc {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
+  font-size: 12px !important;
 }
 
 footer #footer .wrapper .desc i {
-  color: #FAF0D7;
+  color: #fff;
 }
 
 footer #footer .wrapper .desc li {
@@ -641,6 +642,10 @@ footer #footer .wrapper .desc li:hover {
 
 footer #footer .wrapper .desc li:hover i {
   color: #F4BFBF;
+}
+
+footer #footer .wrapper .col-7 p:first-child {
+  font-size: 1rem;
 }
 
 #othPage .bg-light {

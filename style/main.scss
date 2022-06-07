@@ -561,7 +561,6 @@ main{
 
 footer{
    #footer{
-      
          .wrapper{
             background-color: $black;
             border-radius: 56px 56px 0 0;
@@ -574,8 +573,9 @@ footer{
             .desc{
                font-family: $font-secondary;
                font-weight: normal;
+               font-size: 12px !important;
                i{
-                  color: $light;
+                  color: $white;
                   
                }
                li{
@@ -587,6 +587,11 @@ footer{
                         color: $pink;
                      }
                   }
+               }
+            }
+            .col-7{
+               p:first-child{
+                  font-size: 1rem;
                }
             }
          }
