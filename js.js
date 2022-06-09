@@ -1,6 +1,6 @@
+
 $(document).ready(function () {
 	$(".owl-carousel").owlCarousel({
-		
 		loop: false,
 		margin: 30,
 		nav: false,
@@ -9,10 +9,10 @@ $(document).ready(function () {
 			"<div class='nav-btn next-slide'></div>",
 		],
 		responsive: {
-			0:{
-				items: 1
+			0: {
+				items: 1,
 			},
-			400:{
+			400: {
 				items: 1,
 				stagePadding: 50,
 			},
@@ -24,9 +24,9 @@ $(document).ready(function () {
 				items: 2,
 				stagePadding: 30,
 			},
-			700:{
+			700: {
 				items: 2,
-				stagePadding:60,
+				stagePadding: 60,
 			},
 			1000: {
 				items: 3,
@@ -38,3 +38,5 @@ $(document).ready(function () {
 		},
 	});
 });
+
+

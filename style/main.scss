@@ -36,7 +36,7 @@ select{
    border-width: $form-select-border-width !important;
    outline: none !important;
    &:focus{
-      border-color: $blue !important;
+      border-color: $black !important;
       outline: none !important;
       box-shadow: none !important;
    }
@@ -293,6 +293,10 @@ small a.link{
    }
 }
 
+.imgBox{
+   height: 19rem;
+}
+
 main{
    .harga{
       color: $black;
@@ -332,6 +336,9 @@ main{
       .card-body{
          background-color: $pink;
          border-radius: 0 0 2rem 2rem;
+      }
+      .card__overlay{
+         height: 7rem;
       }
    }
    .owl-stage{
@@ -482,7 +489,7 @@ main{
          background-size: cover;
          height: 50vh;
          @media screen and (min-width: $md) {
-            height: 100%; 
+            height: 100%;
          }
       }
       .wrapper{
@@ -593,6 +600,7 @@ footer{
                li{
                   margin-top: .4rem;
                   transition-duration: 0.4s;
+                  
                   &:hover{
                      color: $pink;
                      i{
@@ -698,13 +706,63 @@ input[type="search"]{
       ul{
          color: $pink;
          li{
-            a.link{
+            a{
                color: $pink !important;
+               text-decoration: none;
             }
          }
       }
       label{
          color: $pink;
       }
+      .categories-products{
+         font-family: $font-tambahan !important;
+         font-weight: 600;
+      }
+   }
+
+}
+
+#productsDetailsPage{
+   .lSAction{
+      display: none !important;
+   }
+
+   .lSSlideOuter .lSPager.lSGallery {
+      margin-top: .7rem !important;
+         li.active{
+         border: 1px solid #F4BFBF !important;
+      }
+      li{
+         border-radius: 15px !important;
+         height: 6rem;
+         a{
+            height: 100%;
+            img{
+               height: 100%;
+               margin: auto;
+            }
+         }
+         &:hover{
+            border: 1px solid #F4BFBF !important;
+         }
+      }
+   }
+
+   .wrapper{
+      background-color: $pink;
+      height: 100%;
+      p:first-child{
+         margin: 0;
+      }
+   }
+   .title-prd{
+      line-height: 15px;
+      font-size: 1.4rem;
+   }
+
+   .desc{
+      font-family: $font-secondary;
+      font-weight: normal;
    }
 }

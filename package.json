@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "@ciar4n/izmir": "^1.0.1"
+    "@ciar4n/izmir": "^1.0.1",
+    "lightslider": "^1.1.6"
   }
 }
