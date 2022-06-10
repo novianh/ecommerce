@@ -5,7 +5,7 @@ $font-title: 'Rubik Bubbles', cursive ;
 $font-secondary : 'Open Sans', sans-serif;
 $font-tambahan: 'Quicksand', sans-serif ;
 
-
+$border: #dee2e6;
 $black: #676767;
 $pink: #F4BFBF;
 $blue: #8CC0DE;
@@ -35,6 +35,9 @@ select{
    border-color: $form-select-border-color !important;
    border-width: $form-select-border-width !important;
    outline: none !important;
+   font-weight: 700 !important;
+   color: $black !important;
+   font-size: .9rem;
    &:focus{
       border-color: $black !important;
       outline: none !important;
@@ -43,8 +46,13 @@ select{
 }
 
 .form-control{
+   border-radius: 50px;
    border-width: $form-select-border-width !important;
    border-color: $pink !important;
+   color: $black !important;
+   font-size: .9rem;
+   font-family: $font-primary !important;
+   font-weight: 700;
    &:focus{
       border-color: none !important;
       border-width: 3px;
@@ -956,6 +964,7 @@ input[type="search"]{
             content: attr(data-label);
             flex-basis: 50%;
             text-align: left;
+
          }
       }
       .column {

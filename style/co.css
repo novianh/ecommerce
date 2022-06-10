@@ -4,9 +4,6 @@ select {
   border-color: #F4BFBF !important;
   border-width: 3px !important;
   outline: none !important;
-  font-weight: 700 !important;
-  color: #676767 !important;
-  font-size: .9rem;
 }
 
 select:focus {
@@ -20,9 +17,6 @@ select:focus {
   border-radius: 50px;
   border-width: 3px !important;
   border-color: #F4BFBF !important;
-  color: #676767 !important;
-  font-size: .9rem;
-  font-family: "Baloo Bhaijaan 2", cursive !important;
   font-weight: 700;
 }
 
@@ -1093,4 +1087,83 @@ input[type="search"]:focus {
     text-align: left;
   }
 }
-/*# sourceMappingURL=main.css.map */
+
+#co ::-webkit-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #676767;
+  opacity: .4;
+  /* Firefox */
+}
+
+#co :-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #676767;
+  opacity: .4;
+  /* Firefox */
+}
+
+#co ::-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #676767;
+  opacity: .4;
+  /* Firefox */
+}
+
+#co ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #676767;
+  opacity: .4;
+  /* Firefox */
+}
+
+#co :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #676767;
+  opacity: .4;
+  /* Firefox */
+}
+
+#co ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #676767;
+  opacity: .4;
+  /* Firefox */
+}
+
+#co h5 {
+  font-weight: 700 !important;
+}
+
+#co label {
+  color: #676767;
+}
+
+#co .card .card-header {
+  background-color: #F4BFBF;
+  margin: 1rem;
+  border: none;
+}
+
+#co .card .card-body {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  background-color: #fff;
+}
+
+#co .card .card-body li {
+  border-bottom: 1px dashed #dee2e6 !important;
+}
+
+#co .card .card-body li h6 {
+  font-weight: 700;
+}
+
+#co .card .card-body li.total {
+  border: none !important;
+  color: #8CC0DE;
+}
+
+#co .card .card-body li.total span {
+  color: #8CC0DE !important;
+}
+/*# sourceMappingURL=co.css.map */
