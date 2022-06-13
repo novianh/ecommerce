@@ -4,6 +4,9 @@ select {
   border-color: #F4BFBF !important;
   border-width: 3px !important;
   outline: none !important;
+  font-weight: 700 !important;
+  color: #676767 !important;
+  font-size: .9rem;
 }
 
 select:focus {
@@ -17,6 +20,9 @@ select:focus {
   border-radius: 50px;
   border-width: 3px !important;
   border-color: #F4BFBF !important;
+  color: #676767 !important;
+  font-size: .9rem;
+  font-family: "Baloo Bhaijaan 2", cursive !important;
   font-weight: 700;
 }
 
@@ -1151,7 +1157,7 @@ input[type="search"]:focus {
 }
 
 #co .card .card-body li {
-  border-bottom: 1px dashed #dee2e6 !important;
+  border-bottom: 1px dashed #dee2e6;
 }
 
 #co .card .card-body li h6 {
@@ -1165,5 +1171,9 @@ input[type="search"]:focus {
 
 #co .card .card-body li.total span {
   color: #8CC0DE !important;
+}
+
+#co .card .card-body .status {
+  color: #8CC0DE;
 }
 /*# sourceMappingURL=co.css.map */

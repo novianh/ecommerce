@@ -35,7 +35,7 @@
             h6{
                font-weight: 700; 
             }
-            border-bottom: 1px dashed $border !important;
+            border-bottom: 1px dashed $border ;
          }
          li.total{
             border: none !important;
@@ -44,6 +44,10 @@
                color: $blue !important;
             }
          }
+         .status{
+            color: $blue;
+         }
       }
    }
 }
+

@@ -20,6 +20,10 @@ $lg: 992px;
 $xl: 1200px;
 $xxl: 1400px;
 
+::selection {
+   background: $blue;
+ }
+
 // form
 // ?select
 $form-select-indicator:             url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
@@ -982,5 +986,15 @@ input[type="search"]{
          }
       }
       }
+   }
+}
+
+#collection{
+   hr {
+      height: 3px;
+      border-radius: 100px;
+      background-color:$black;
+      border: none;
+      opacity: .1;
    }
 }
