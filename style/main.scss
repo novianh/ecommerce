@@ -135,6 +135,16 @@ body{
 
 }
 
+.btn-secondary{
+   background-color:$white !important;
+   color: $black !important;
+   box-shadow:none !important;
+}
+
+.btn.close{
+   background-color: $pink !important;
+}
+
 a.link{
    text-decoration: none !important;
    color: $black !important;
@@ -349,15 +359,12 @@ main{
          background-color: $pink;
          border-radius: 0 0 2rem 2rem;
       }
-      .card__overlay{
-         height: 7rem;
-      }
+
    }
    .owl-stage{
       padding: 2rem 0;
    }
 .ornaments{
- 
    .ornament{
       left: -230px;
       top: 17px;
@@ -722,9 +729,47 @@ input[type="search"]{
       ul{
          color: $pink;
          li{
+
             a{
                color: $pink !important;
                text-decoration: none;
+               transition-duration: 0.4s;
+               &:active{
+                  color: $blue !important;
+               }
+               &:focus{
+                  color: $blue !important;
+               }
+               &:hover{
+                  color: $blue !important;
+               }
+            }
+         }
+      }
+      .irs--round 
+      {
+         .irs-handle{
+            border-color: $blue;
+         }
+         .irs-bar{
+            background-color: $blue;
+         }
+         .irs-single{
+            background-color: $blue;
+            &::before{
+               border-top-color: $blue;
+            }
+         }
+         .irs-to{
+            background-color: $blue;
+            &::before{
+               border-top-color: $blue;
+            }
+         }
+         .irs-from{
+            background-color: $blue;
+            &::before{
+               border-top-color: $blue;
             }
          }
       }
@@ -949,9 +994,6 @@ input[type="search"]{
       ul{
          padding: 0;
       }
-      .table-row{
-         
-      }
       li {
          display: block;
       }
@@ -996,5 +1038,27 @@ input[type="search"]{
       background-color:$black;
       border: none;
       opacity: .1;
+   }
+}
+
+.transition-fade{
+   transition: 0.4s;
+   opacity: 1;
+}
+
+.is-animating{
+   .transition-fade{
+      opacity: 0;
+   }
+}
+
+#login{
+   .image{
+
+      height: 100vh;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
    }
 }

@@ -120,6 +120,17 @@ body {
   transition: 0s;
 }
 
+.btn-secondary {
+  background-color: #fff !important;
+  color: #676767 !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.btn.close {
+  background-color: #F4BFBF !important;
+}
+
 a.link {
   text-decoration: none !important;
   color: #676767 !important;
@@ -370,10 +381,6 @@ main .card .card-text {
 main .card .card-body {
   background-color: #F4BFBF;
   border-radius: 0 0 2rem 2rem;
-}
-
-main .card .card__overlay {
-  height: 7rem;
 }
 
 main .owl-stage {
@@ -782,6 +789,52 @@ input[type="search"]:focus {
 #productsPage .categories ul li a {
   color: #F4BFBF !important;
   text-decoration: none;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+
+#productsPage .categories ul li a:active {
+  color: #8CC0DE !important;
+}
+
+#productsPage .categories ul li a:focus {
+  color: #8CC0DE !important;
+}
+
+#productsPage .categories ul li a:hover {
+  color: #8CC0DE !important;
+}
+
+#productsPage .categories .irs--round .irs-handle {
+  border-color: #8CC0DE;
+}
+
+#productsPage .categories .irs--round .irs-bar {
+  background-color: #8CC0DE;
+}
+
+#productsPage .categories .irs--round .irs-single {
+  background-color: #8CC0DE;
+}
+
+#productsPage .categories .irs--round .irs-single::before {
+  border-top-color: #8CC0DE;
+}
+
+#productsPage .categories .irs--round .irs-to {
+  background-color: #8CC0DE;
+}
+
+#productsPage .categories .irs--round .irs-to::before {
+  border-top-color: #8CC0DE;
+}
+
+#productsPage .categories .irs--round .irs-from {
+  background-color: #8CC0DE;
+}
+
+#productsPage .categories .irs--round .irs-from::before {
+  border-top-color: #8CC0DE;
 }
 
 #productsPage .categories label {
@@ -1107,5 +1160,23 @@ input[type="search"]:focus {
   background-color: #676767;
   border: none;
   opacity: .1;
+}
+
+.transition-fade {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  opacity: 1;
+}
+
+.is-animating .transition-fade {
+  opacity: 0;
+}
+
+#login .image {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 /*# sourceMappingURL=main.css.map */
