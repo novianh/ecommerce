@@ -41,6 +41,34 @@ select:focus {
           box-shadow: 0 0 0 0.25rem #f4bfbf84 !important;
 }
 
+.form-control ::-webkit-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1;
+  /* Firefox */
+}
+
+.form-control :-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1;
+  /* Firefox */
+}
+
+.form-control ::-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1;
+  /* Firefox */
+}
+
+.form-control ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1;
+  /* Firefox */
+}
+
 .form-check-input[type=checkbox] {
   border-radius: 0.4em;
   border: 3px solid #F4BFBF;
@@ -381,11 +409,6 @@ main .card .card-text {
 main .card .card-body {
   background-color: #F4BFBF;
   border-radius: 0 0 2rem 2rem;
-}
-
-main .card .card-body h5 {
-  font-weight: 500 !important;
-  font-size: 1rem !important;
 }
 
 main .owl-stage {
